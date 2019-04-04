@@ -4,6 +4,7 @@
 // If the value is more than 10 it will print Battery Motafagera Hazeeena
 // if the value is between 5 and 10 it will print Battery is normal 
 // if the value is around 0-5 it will print battery low .
+// NOTE : USE MACROS IN THE IF STATEMENT TO INDICATE THE STATES OF THE BATTERY AND REMEMBER IT'S JUST TEXT REPLACEMENT
 
 #include <stdio.h>
 #include <stdlib.h>
