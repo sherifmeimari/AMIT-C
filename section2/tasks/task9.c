@@ -7,6 +7,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#define FULL "Battery Full"
+#define MOTAFAGERA "Battery MOTAFAGERA HAZEENA!"
+#define NORMAL "Battery Normal"
+#define LOW "Battery low"
 
 void battery_checker() {
     int battery, *pointer = &battery;
@@ -14,13 +18,13 @@ void battery_checker() {
     scanf("%i", pointer);
 
     if(*pointer == 10) {
-        printf("Battery Full");
+        printf(FULL);
     } else if(*pointer > 10) {
-        printf("Battery MOTAFAGERA HAZEENA!");
+        printf(MOTAFAGERA);
     } else if(*pointer > 5 && *pointer < 10) {
-        printf("Battery Normal");
+        printf(NORMAL);
     } else {
-        printf("Battery low");
+        printf(LOW);
     }
     printf("\n");
 } 
