@@ -1,3 +1,5 @@
+// Make a christmas tree with asterisks
+
 #include <stdio.h>
 #include <stdlib.h>
 
