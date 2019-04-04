@@ -1,3 +1,23 @@
+// task 2:
+// 
+// Make a calculator function that: 
+// If user enters 1 it goes to the calculator.  And prints the result from 
+// 1. Addition 
+// 2. Subtraction 
+// 3. Multiplication. 
+// ----- 
+// If user enters 2 it goes to cinema ticket.  
+// If user picks 1 
+// It prints: normal ticket 50 LE 
+// If user picks 2 
+// It prints: vip ticket 
+// If user picks 3 
+// It prints: vip + pop corn
+
+// task 3:
+//
+// Make a function that implements both previous tasks together called advanced calculator
+
 #include <stdio.h>
 #include <stdlib.h>
 
