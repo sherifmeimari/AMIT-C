@@ -1,3 +1,5 @@
+// flip an array using pointers and maximum one extra variable ex: 12345 TO 54321 
+
 #include <stdio.h>
 #include <stdlib.h>
 
