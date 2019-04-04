@@ -1,3 +1,5 @@
+// swap values in 2 Arrays "using pointers"
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_SIZE 5
