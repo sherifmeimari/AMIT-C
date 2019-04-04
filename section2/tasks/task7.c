@@ -96,7 +96,7 @@ void cinema_reservation() {
     }
 }
 
-int main() {
+void advanced_calculator() {
     int choice, *pchoice = &choice;
 
     while(True) {
@@ -111,6 +111,11 @@ int main() {
             cinema_reservation();
         }
     }
+}
+
+int main() {
+
+    advanced_calculator();
 
     return 0;
 }
