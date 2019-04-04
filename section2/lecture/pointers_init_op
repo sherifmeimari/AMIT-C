@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *ptr1, *ptr2, x=0, y=0;
+    char *ptr3, z='a';
+    ptr1 = &x;
+    ptr2 = &y;
+    ptr3 = &z;
+
+    printf("x = %i\n", x);
+    printf("y = %i\n", y);
+    printf("z = %c\n", z);
+    printf("Enter x:\n");
+    scanf("%i", ptr1);
+    printf("Enter y:\n");
+    scanf("%i", ptr2);
+    printf("Enter z:\n");
+    scanf("\n%c", ptr3);
+    printf("x = %i\n", x);
+    printf("y = %i\n", y);
+    printf("z = %c\n", z);
+
+    return 0;
+}
