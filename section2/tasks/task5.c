@@ -1,3 +1,8 @@
+// Make a function called " Array_Entry " 
+// This function takes a pointer to an array , 
+// And the size of the array .
+// And directly changes the values of the array depending on input (scanf) 
+
 #include <stdio.h>
 #include <stdlib.h>
 
