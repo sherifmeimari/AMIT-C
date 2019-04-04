@@ -1,3 +1,6 @@
+// After ending the 3 tasks 
+// Make a fourth project which has a function that calls the three functions .
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_LENGTH 5
