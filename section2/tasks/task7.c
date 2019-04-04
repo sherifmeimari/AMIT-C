@@ -1,3 +1,6 @@
+// Make a function called Advanced Calculator.
+// Implement The Calculator And the 4 last tasks in this " Advanced_Calculator " Function
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_LENGTH 5
