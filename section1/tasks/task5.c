@@ -1,3 +1,11 @@
+// Draw the following 
+// * 
+// ** 
+// ***
+// ** 
+// ***
+// ****
+
 #include <stdio.h>
 #include <stdlib.h>
 
