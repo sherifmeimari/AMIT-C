@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define MAX_FOR_MAINTENANCE 2020
+#define MAX_FOR_MAINTENANCE 2000
 
 struct eeprom {
     int maintenance;
